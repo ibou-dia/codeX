@@ -8,7 +8,7 @@ const GithubImage = (props: ImageProps) => {
   // Vérifier si props.src est une chaîne de caractères et commence par "/"
   if (typeof props.src === 'string' && props.src.startsWith('/')) {
     // Préfixer le chemin pour GitHub Pages en production
-    const basePath = process.env.NODE_ENV === 'production' ? '/CodeX' : '';
+    const basePath = process.env.NODE_ENV === 'production' ? '/codeX' : '';
     const adjustedSrc = `${basePath}${props.src}`;
     
     // Important : on passe tous les props (y compris alt) à Image

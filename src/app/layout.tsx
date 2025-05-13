@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 // Déterminer le préfixe de chemin en fonction de l'environnement
-const basePath = process.env.NODE_ENV === 'production' ? '/CodeX' : '';
+const basePath = process.env.NODE_ENV === 'production' ? '/codeX' : '';
 
 export const metadata: Metadata = {
   title: "Equipe CodeX",
