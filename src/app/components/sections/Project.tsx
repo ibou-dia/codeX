@@ -88,12 +88,12 @@ const Project = () => {
                 <h3 className="text-2xl font-bold mb-2">À propos du projet</h3>
                 <p className="text-white/90 max-w-3xl leading-relaxed">
                   Pour améliorer la relation client et la réactivité de Senelec face aux problématiques rencontrées par ses usagers,
-                  nous proposons une solution complète de capture et d'analyse intelligente des retours clients provenant de multiples canaux
+                  nous proposons une solution complète de capture et d&apos;analyse intelligente des retours clients provenant de multiples canaux
                   (application mobile, réseaux sociaux, emails).
                 </p>
                 <p className="text-white/90 max-w-3xl mt-3 leading-relaxed">
                   Grâce à l&apos;intelligence artificielle, le système analyse automatiquement les messages pour en extraire le sentiment,
-                  évaluer la gravité des problèmes signalés, et déterminer leur niveau d'urgence. Ces données sont ensuite
+                  évaluer la gravité des problèmes signalés, et déterminer leur niveau d&apos;urgence. Ces données sont ensuite
                   présentées aux décideurs via un tableau de bord interactif offrant des alertes et recommandations stratégiques en temps réel.
                 </p>
               </motion.div>
@@ -207,7 +207,7 @@ const Project = () => {
                     >
                       <h5 className="font-medium text-gray-800 mb-2">Pour les clients</h5>
                       <ul className="space-y-1 text-gray-600 text-sm">
-                        <li>• Communication facilitée avec l'entreprise</li>
+                        <li>• Communication facilitée avec l&apos;entreprise</li>
                         <li>• Suivi en temps réel de leurs réclamations</li>
                         <li>• Interface intuitive avec support de messages vocaux</li>
                         <li>• Notifications automatiques sur les résolutions</li>
@@ -294,7 +294,7 @@ const Project = () => {
               </div>
               <h4 className="text-lg font-semibold text-gray-800 mb-2">Recommandations stratégiques</h4>
               <p className="text-gray-600">
-                Suggestions d'actions prioritaires générées par IA pour améliorer la satisfaction client
+                Suggestions d&apos;actions prioritaires générées par IA pour améliorer la satisfaction client
               </p>
             </motion.div>
           </div>
