@@ -69,7 +69,7 @@ const Project = () => {
               />
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Solution intelligente d'analyse et gestion des retours clients pour améliorer la qualité de service de Senelec
+              Solution intelligente d&apos;analyse et gestion des retours clients pour améliorer la qualité de service de Senelec
             </p>
           </div>
           
