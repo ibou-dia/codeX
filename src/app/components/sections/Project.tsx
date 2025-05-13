@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { FaLaptopCode, FaCode, FaDatabase, FaChartLine, FaCommentDots, FaMobileAlt, FaBell, FaLightbulb } from 'react-icons/fa';
+import { FaLaptopCode, FaCode, FaChartLine, FaCommentDots, FaMobileAlt, FaBell, FaLightbulb } from 'react-icons/fa';
 import { FloatingCircle, Zigzag, Badge, WavyBackground } from '../DecorativeElements';
 
 const features = [
