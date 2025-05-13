@@ -92,7 +92,7 @@ const Project = () => {
                   (application mobile, réseaux sociaux, emails).
                 </p>
                 <p className="text-white/90 max-w-3xl mt-3 leading-relaxed">
-                  Grâce à l'intelligence artificielle, le système analyse automatiquement les messages pour en extraire le sentiment,
+                  Grâce à l&apos;intelligence artificielle, le système analyse automatiquement les messages pour en extraire le sentiment,
                   évaluer la gravité des problèmes signalés, et déterminer leur niveau d'urgence. Ces données sont ensuite
                   présentées aux décideurs via un tableau de bord interactif offrant des alertes et recommandations stratégiques en temps réel.
                 </p>
