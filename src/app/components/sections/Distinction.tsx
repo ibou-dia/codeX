@@ -8,7 +8,7 @@ import {
   Badge,
   WavyBackground,
 } from "../DecorativeElements";
-import Image from "next/image";
+import GithubImage from "../GithubImage";
 
 // Structure des données pour les distinctions
 const distinctions = [
@@ -105,7 +105,7 @@ const Distinction = () => {
                 whileHover={{ y: -10, transition: { duration: 0.3 } }}
               >
                 <div className="relative h-48 overflow-hidden">
-                  <Image
+                  <GithubImage
                     src={distinction.imageUrl}
                     alt={distinction.title}
                     fill
