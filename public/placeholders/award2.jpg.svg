@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond dégradé -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00A651;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006838;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad1)" />
+  
+  <!-- Éléments décoratifs -->
+  <circle cx="400" cy="300" r="150" fill="rgba(255,255,255,0.1)" />
+  <circle cx="200" cy="150" r="80" fill="rgba(255,255,255,0.05)" />
+  <circle cx="600" cy="450" r="100" fill="rgba(255,255,255,0.05)" />
+  
+  <!-- Logo Hackathon -->
+  <g transform="translate(350, 180) scale(1.2)">
+    <!-- Cercle extérieur -->
+    <circle cx="50" cy="50" r="50" fill="#FFFFFF" />
+    
+    <!-- Symbole de code/hackathon -->
+    <text x="50" y="65" font-family="Courier New" font-size="60" font-weight="bold" fill="#00A651" text-anchor="middle">&lt;/&gt;</text>
+    
+    <!-- Ampoule (idée) -->
+    <circle cx="50" cy="30" r="10" fill="#FFC107" />
+    <path d="M 50,40 L 50,50" stroke="#FFC107" stroke-width="3" />
+  </g>
+  
+  <!-- Texte -->
+  <text x="400" y="450" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Hackathon Senelec 2025 - 3ème Prix</text>
+  <text x="400" y="490" font-family="Arial" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">Notre équipe a développé une solution innovante pour</text>
+  <text x="400" y="520" font-family="Arial" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">optimiser la gestion des retours clients dans le secteur de l'énergie</text>
+  
+  <!-- Logo LinkedIn -->
+  <g transform="translate(380, 550) scale(0.8)">
+    <rect x="0" y="0" width="50" height="50" rx="10" fill="#0077B5" />
+    <text x="25" y="35" font-family="Arial" font-size="40" font-weight="bold" fill="white" text-anchor="middle">in</text>
+  </g>
+</svg>

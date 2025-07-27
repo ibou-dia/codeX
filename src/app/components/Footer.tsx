@@ -31,8 +31,8 @@ const Footer = () => {
             <button onClick={() => scrollToSection('team')} className="hover:text-cyan-300 transition-colors">
               Équipe
             </button>
-            <button onClick={() => scrollToSection('project')} className="hover:text-cyan-300 transition-colors">
-              Projet
+            <button onClick={() => scrollToSection('distinction')} className="hover:text-cyan-300 transition-colors">
+              Distinction
             </button>
             <button onClick={() => scrollToSection('contact')} className="hover:text-cyan-300 transition-colors">
               Contact

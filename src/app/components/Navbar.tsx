@@ -52,7 +52,7 @@ const Navbar = () => {
             {[
               { id: 'about', text: 'À propos' },
               { id: 'team', text: 'Équipe' },
-              { id: 'project', text: 'Projet' },
+              { id: 'distinction', text: 'Distinction' },
               { id: 'contact', text: 'Contact' }
             ].map((item) => (
               <button
@@ -93,7 +93,7 @@ const Navbar = () => {
                 {[
                   { id: 'about', text: 'À propos' },
                   { id: 'team', text: 'Équipe' },
-                  { id: 'project', text: 'Projet' },
+                  { id: 'distinction', text: 'Distinction' },
                   { id: 'contact', text: 'Contact' }
                 ].map((item) => (
                   <button

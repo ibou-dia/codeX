@@ -1,0 +1,46 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond dégradé -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad1)" />
+  
+  <!-- Éléments décoratifs -->
+  <circle cx="400" cy="300" r="150" fill="rgba(255,255,255,0.1)" />
+  <circle cx="200" cy="150" r="80" fill="rgba(255,255,255,0.05)" />
+  <circle cx="600" cy="450" r="100" fill="rgba(255,255,255,0.05)" />
+  
+  <!-- Logo IT Day -->
+  <g transform="translate(350, 180) scale(1.2)">
+    <!-- Cercle extérieur -->
+    <circle cx="50" cy="50" r="50" fill="#FFFFFF" />
+    
+    <!-- Symbole IT -->
+    <g transform="translate(20, 30)">
+      <!-- Écran d'ordinateur -->
+      <rect x="0" y="0" width="60" height="40" rx="2" fill="#3B82F6" />
+      <rect x="5" y="5" width="50" height="30" rx="1" fill="#FFFFFF" />
+      
+      <!-- Base de l'ordinateur -->
+      <rect x="20" y="40" width="20" height="5" fill="#3B82F6" />
+      <rect x="15" y="45" width="30" height="2" fill="#3B82F6" />
+      
+      <!-- Texte IT -->
+      <text x="30" y="27" font-family="Arial" font-size="20" font-weight="bold" fill="#3B82F6" text-anchor="middle">IT</text>
+    </g>
+  </g>
+  
+  <!-- Texte -->
+  <text x="400" y="450" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Prix Polytech IT Day</text>
+  <text x="400" y="490" font-family="Arial" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">Récompense pour notre projet technologique présenté</text>
+  <text x="400" y="520" font-family="Arial" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">lors de la journée de l'innovation à Polytechnique</text>
+  
+  <!-- Logo LinkedIn -->
+  <g transform="translate(380, 550) scale(0.8)">
+    <rect x="0" y="0" width="50" height="50" rx="10" fill="#0077B5" />
+    <text x="25" y="35" font-family="Arial" font-size="40" font-weight="bold" fill="white" text-anchor="middle">in</text>
+  </g>
+</svg>

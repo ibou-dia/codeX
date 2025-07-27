@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond dégradé -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7931A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF9900;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad1)" />
+  
+  <!-- Éléments décoratifs -->
+  <circle cx="400" cy="300" r="150" fill="rgba(255,255,255,0.1)" />
+  <circle cx="200" cy="150" r="80" fill="rgba(255,255,255,0.05)" />
+  <circle cx="600" cy="450" r="100" fill="rgba(255,255,255,0.05)" />
+  
+  <!-- Logo Bitcoin -->
+  <g transform="translate(350, 180) scale(1.5)">
+    <circle cx="50" cy="50" r="50" fill="#FFFFFF" />
+    <path d="M74.5,47.18c1.37-9.16-5.6-14.08-15.13-17.38l3.09-12.4l-7.55-1.88l-3,12.07c-1.98-0.49-4.02-0.96-6.04-1.42l3.03-12.15l-7.54-1.88l-3.09,12.4c-1.64-0.37-3.25-0.74-4.81-1.13l0.01-0.04l-10.42-2.6l-2.01,8.06c0,0,5.6,1.28,5.48,1.36c3.06,0.76,3.61,2.79,3.52,4.4l-3.52,14.13c0.21,0.05,0.48,0.13,0.78,0.25c-0.25-0.06-0.52-0.13-0.79-0.19l-4.94,19.79c-0.37,0.93-1.32,2.32-3.45,1.79c0.07,0.11-5.48-1.37-5.48-1.37l-3.74,8.64l9.83,2.45c1.83,0.46,3.62,0.94,5.38,1.39l-3.13,12.57l7.54,1.88l3.09-12.41c2.06,0.56,4.06,1.07,6.02,1.56l-3.08,12.33l7.55,1.88l3.13-12.55c12.84,2.43,22.5,1.45,26.56-10.16c3.27-9.35-0.16-14.73-6.91-18.24C68.05,58.18,73.58,53.95,74.5,47.18L74.5,47.18z M60.46,67.15c-2.33,9.35-18.06,4.3-23.17,3.03l4.13-16.57c5.11,1.27,21.52,3.8,19.04,13.54z M62.78,47.06c-2.12,8.51-15.22,4.18-19.46,3.13l3.75-15.04C51.3,36.19,65.08,38.23,62.78,47.06z" fill="#F7931A"/>
+  </g>
+  
+  <!-- Texte -->
+  <text x="400" y="450" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Prix Bitcoin Conference 2025</text>
+  <text x="400" y="490" font-family="Arial" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">Reconnaissance pour notre contribution innovante</text>
+  <text x="400" y="520" font-family="Arial" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">dans le domaine de la blockchain et des technologies Bitcoin</text>
+  
+  <!-- Logo LinkedIn -->
+  <g transform="translate(380, 550) scale(0.8)">
+    <rect x="0" y="0" width="50" height="50" rx="10" fill="#0077B5" />
+    <text x="25" y="35" font-family="Arial" font-size="40" font-weight="bold" fill="white" text-anchor="middle">in</text>
+  </g>
+</svg>
