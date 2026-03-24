@@ -6,9 +6,9 @@ import { FaEnvelope, FaPaperPlane, FaCheck } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 // Configuration d'EmailJS - À remplacer par vos propres identifiants de service EmailJS
-const EMAILJS_SERVICE_ID = "service_n104mg7"; // Remplacer par votre Service ID EmailJS
-const EMAILJS_TEMPLATE_ID = "template_l4mlgql"; // Remplacer par votre Template ID EmailJS
-const EMAILJS_PUBLIC_KEY = "CkizpCmouQe2M_oqG"; // Remplacer par votre Public Key EmailJS
+const EMAILJS_SERVICE_ID = "service_n104mg7"; // Service ID EmailJS
+const EMAILJS_TEMPLATE_ID = "template_l4mlgql"; // Template ID EmailJS
+const EMAILJS_PUBLIC_KEY = "CkizpCmouQe2M_oqG"; // Public Key EmailJS
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -29,7 +29,7 @@ const Contact = () => {
   const [submitError, setSubmitError] = useState("");
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { id, value } = e.target;
     setFormData((prev) => ({
@@ -61,7 +61,7 @@ const Contact = () => {
     }
 
     if (!formData.email.trim()) {
-      newErrors.email = "L&apos;email est requis";
+      newErrors.email = "L'email est requis";
       isValid = false;
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = "Veuillez entrer un email valide";
@@ -95,7 +95,7 @@ const Contact = () => {
         from_email: formData.email,
         message: formData.message,
         to_email: "ibrahimadia800@gmail.com",
-        project_name: "Senelec Voice & Feedback Insight - CodeX",
+        project_name: "Portfolio CodeX",
       };
 
       // Envoi de l'email avec EmailJS
@@ -103,7 +103,7 @@ const Contact = () => {
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
         templateParams,
-        EMAILJS_PUBLIC_KEY
+        EMAILJS_PUBLIC_KEY,
       );
 
       // Réinitialiser le formulaire et afficher le message de succès
@@ -115,9 +115,8 @@ const Contact = () => {
         setIsSubmitted(false);
       }, 5000);
     } catch (error) {
-      console.error("Erreur lors de l&apos;envoi du message:", error);
       setSubmitError(
-        "Une erreur est survenue lors de l&apos;envoi du message. Veuillez réessayer plus tard."
+        "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer plus tard.",
       );
     } finally {
       setIsSubmitting(false);
