@@ -115,6 +115,7 @@ const Contact = () => {
         setIsSubmitted(false);
       }, 5000);
     } catch (error) {
+      console.error("Erreur lors de l'envoi du message:", error);
       setSubmitError(
         "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer plus tard.",
       );
