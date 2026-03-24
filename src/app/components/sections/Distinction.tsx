@@ -14,12 +14,12 @@ import GithubImage from "../GithubImage";
 const distinctions = [
   {
     id: 1,
-    title: "Prix Bitcoin Conference 2025",
+    title: "Hackathon Tech Innov 2025 - 2ème Prix",
     description:
-      "Reconnaissance pour notre contribution innovante dans le domaine de la blockchain et des technologies Bitcoin",
+      "Récompense pour notre projet technologique pour améliorer la gestion des chantiers dans le BTP",
     linkedinUrl:
-      "https://www.linkedin.com/posts/ibrahima-dia-1b6992294_bitcoin-stacks-sbtc-activity-7335055952271859715-YoD8",
-    imageUrl: "/placeholders/award1.jpg.svg", // Image SVG représentant le prix
+      "https://www.linkedin.com/posts/bureau-des-el%C3%A8ves-ept_f%C3%A9licitations-nous-avons-limmense-plaisir-activity-7357885540358078465-P5Ap?",
+    imageUrl: "/placeholders/techinnov.jpeg", // Image SVG représentant le prix
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const distinctions = [
       "Notre équipe a développé une solution innovante pour optimiser la gestion des retours clients dans le secteur de l'énergie",
     linkedinUrl:
       "https://www.linkedin.com/posts/mamadou-falilou-diaw-4249a726b_hackathon-innovation-senelec-activity-7354284259068518400-jyeQ",
-    imageUrl: "/placeholders/award2.jpg.svg", // Image SVG représentant le prix
+    imageUrl: "/placeholders/senelec.jpeg", // Image SVG représentant le prix
   },
   {
     id: 3,
@@ -37,7 +37,16 @@ const distinctions = [
       "Récompense pour notre projet technologique présenté lors de la journée de l'innovation à l'École Polytechnique de Thiès",
     linkedinUrl:
       "https://www.linkedin.com/posts/ibrahima-dia-1b6992294_itday-ept-hackathon-activity-7339381057441423360-bplI",
-    imageUrl: "/placeholders/award3.jpg.svg", // Image SVG représentant le prix
+    imageUrl: "/placeholders/itday.jpeg", // Image SVG représentant le prix
+  },
+  {
+    id: 4,
+    title: "Prix Bitcoin Conference 2025",
+    description:
+      "Reconnaissance pour notre contribution innovante dans le domaine de la blockchain et des technologies Bitcoin",
+    linkedinUrl:
+      "https://www.linkedin.com/posts/ibrahima-dia-1b6992294_bitcoin-stacks-sbtc-activity-7335055952271859715-YoD8",
+    imageUrl: "/placeholders/paysats.jpeg", // Image SVG représentant le prix
   },
 ];
 
@@ -93,7 +102,7 @@ const Distinction = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-4 gap-8">
             {distinctions.map((distinction) => (
               <motion.div
                 key={distinction.id}
@@ -136,7 +145,7 @@ const Distinction = () => {
                   <h3 className="text-xl font-bold text-gray-800 mb-2">
                     {distinction.title}
                   </h3>
-                  <p className="text-gray-600">{distinction.description}</p>
+                  {/* <p className="text-gray-600">{distinction.description}</p> */}
                 </div>
               </motion.div>
             ))}
